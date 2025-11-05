@@ -1,0 +1,245 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtj08t7aork0v"]
+
+[ext_resource type="Script" uid="uid://bpjscfs620e4t" path="res://Scripts/canvas_layer_debug.gd" id="1_mi55y"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7th4q"]
+bg_color = Color(0.06, 0.044, 0, 0.843137)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6jybn"]
+
+[node name="CanvasLayer_Debug" type="CanvasLayer"]
+process_mode = 3
+layer = 75
+script = ExtResource("1_mi55y")
+
+[node name="Popout_Menu_1" type="MarginContainer" parent="."]
+unique_name_in_owner = true
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -143.0
+offset_top = -148.5
+offset_right = 143.0
+offset_bottom = 148.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+
+[node name="Panel" type="Panel" parent="Popout_Menu_1"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_7th4q")
+
+[node name="HFlowContainer" type="HFlowContainer" parent="Popout_Menu_1"]
+layout_mode = 2
+theme_override_constants/h_separation = 45
+theme_override_constants/v_separation = 35
+alignment = 1
+
+[node name="Button_Popout1_1" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_2" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_3" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_4" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_5" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_6" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_7" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_8" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_9" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Button_Popout1_10" type="Button" parent="Popout_Menu_1/HFlowContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Button Text"
+
+[node name="Bottom_Bar" type="MarginContainer" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -206.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Bottom_Bar"]
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="Buttons" type="HSplitContainer" parent="Bottom_Bar/VBoxContainer"]
+layout_mode = 2
+
+[node name="Left_Buttons" type="VBoxContainer" parent="Bottom_Bar/VBoxContainer/Buttons"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Bottom_Bar/VBoxContainer/Buttons/Left_Buttons"]
+layout_mode = 2
+
+[node name="Button_Bar_Popout_1" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Left_Buttons/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Popout
+Menu 1"
+
+[node name="Right_Buttons" type="VBoxContainer" parent="Bottom_Bar/VBoxContainer/Buttons"]
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="Bar_R_Top_Buttons" type="HBoxContainer" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons"]
+layout_mode = 2
+alignment = 2
+
+[node name="Button_Bar_R_Top_1" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Top_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button
+Text"
+
+[node name="Button_Bar_R_Top_2" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Top_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button
+Text"
+
+[node name="Button_Bar_R_Top_3" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Top_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button
+Text"
+
+[node name="Button_Bar_R_Top_4" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Top_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button
+Text"
+
+[node name="Button_Bar_R_Top_5" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Top_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button
+Text"
+
+[node name="Button_Bar_R_Top_6" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Top_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button
+Text"
+
+[node name="Bar_R_Bott_Buttons" type="HBoxContainer" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons"]
+layout_mode = 2
+alignment = 2
+
+[node name="Button_Bar_R_Bott_1" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Bott_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button"
+
+[node name="Button_Bar_R_Bott_2" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Bott_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button"
+
+[node name="Button_Bar_R_Bott_3" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Bott_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button"
+
+[node name="Button_Bar_R_Bott_4" type="Button" parent="Bottom_Bar/VBoxContainer/Buttons/Right_Buttons/Bar_R_Bott_Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+focus_mode = 0
+theme_override_styles/focus = SubResource("StyleBoxEmpty_6jybn")
+text = "Button"
+
+[node name="Texts" type="HBoxContainer" parent="Bottom_Bar/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Bottom_Bar/VBoxContainer/Texts"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 8
+
+[node name="HSplitContainer" type="HSplitContainer" parent="Bottom_Bar/VBoxContainer/Texts/MarginContainer"]
+layout_mode = 2
+
+[node name="Label_Left_Text" type="Label" parent="Bottom_Bar/VBoxContainer/Texts/MarginContainer/HSplitContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Bottom left debug text"
+
+[node name="Label_Right_Text" type="Label" parent="Bottom_Bar/VBoxContainer/Texts/MarginContainer/HSplitContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Bottom right debug text"
+horizontal_alignment = 2
+
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_1" to="." method="_on_button_sound_1_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_2" to="." method="_on_button_sound_2_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_3" to="." method="_on_button_sound_3_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_4" to="." method="_on_button_sound_4_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_5" to="." method="_on_button_sound_5_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_6" to="." method="_on_button_sound_6_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_7" to="." method="_on_button_sound_7_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_8" to="." method="_on_button_sound_8_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_9" to="." method="_on_button_sound_9_pressed"]
+[connection signal="pressed" from="Popout_Menu_1/HFlowContainer/Button_Popout1_10" to="." method="_on_button_sound_10_pressed"]
