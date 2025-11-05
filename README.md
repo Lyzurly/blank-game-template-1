@@ -1,2 +1,5 @@
 # blank-game-template-1
-Base game dev project!
+As of the last time I updated this readme,
+There's just a blank debug menu in this project :D
+
+It's pretty useful
